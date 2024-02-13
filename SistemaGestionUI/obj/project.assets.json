@@ -1179,7 +1179,8 @@
           "Microsoft.Data.SqlClient": "5.1.5",
           "Microsoft.EntityFrameworkCore": "6.0.26",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.26",
-          "SistemaGestionEntities": "1.0.0"
+          "SistemaGestionEntities": "1.0.0",
+          "System.Data.SqlClient": "4.8.6"
         },
         "compile": {
           "bin/placeholder/SistemaGestionData.dll": {}
