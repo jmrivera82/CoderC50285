@@ -1,0 +1,11 @@
+C:\Users\Jose Miguel Rivera\Desktop\Coderhouse\c-sharp\SistemaGestion\SistemaGestionEntities\bin\Debug\net6.0\SistemaGestionEntities.deps.json
+C:\Users\Jose Miguel Rivera\Desktop\Coderhouse\c-sharp\SistemaGestion\SistemaGestionEntities\bin\Debug\net6.0\SistemaGestionEntities.dll
+C:\Users\Jose Miguel Rivera\Desktop\Coderhouse\c-sharp\SistemaGestion\SistemaGestionEntities\bin\Debug\net6.0\SistemaGestionEntities.pdb
+C:\Users\Jose Miguel Rivera\Desktop\Coderhouse\c-sharp\SistemaGestion\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jose Miguel Rivera\Desktop\Coderhouse\c-sharp\SistemaGestion\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.AssemblyInfoInputs.cache
+C:\Users\Jose Miguel Rivera\Desktop\Coderhouse\c-sharp\SistemaGestion\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.AssemblyInfo.cs
+C:\Users\Jose Miguel Rivera\Desktop\Coderhouse\c-sharp\SistemaGestion\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.csproj.CoreCompileInputs.cache
+C:\Users\Jose Miguel Rivera\Desktop\Coderhouse\c-sharp\SistemaGestion\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.dll
+C:\Users\Jose Miguel Rivera\Desktop\Coderhouse\c-sharp\SistemaGestion\SistemaGestionEntities\obj\Debug\net6.0\refint\SistemaGestionEntities.dll
+C:\Users\Jose Miguel Rivera\Desktop\Coderhouse\c-sharp\SistemaGestion\SistemaGestionEntities\obj\Debug\net6.0\SistemaGestionEntities.pdb
+C:\Users\Jose Miguel Rivera\Desktop\Coderhouse\c-sharp\SistemaGestion\SistemaGestionEntities\obj\Debug\net6.0\ref\SistemaGestionEntities.dll
