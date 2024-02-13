@@ -52,3 +52,6 @@ C:\Users\Jose Miguel Rivera\Desktop\Coderhouse\c-sharp\SistemaGestion\SistemaGes
 C:\Users\Jose Miguel Rivera\Desktop\Coderhouse\c-sharp\SistemaGestion\SistemaGestionUI\obj\Debug\net6.0-windows\SistemaGestionUI.pdb
 C:\Users\Jose Miguel Rivera\Desktop\Coderhouse\c-sharp\SistemaGestion\SistemaGestionUI\obj\Debug\net6.0-windows\SistemaGestionUI.genruntimeconfig.cache
 C:\Users\Jose Miguel Rivera\Desktop\Coderhouse\c-sharp\SistemaGestion\SistemaGestionUI\obj\Debug\net6.0-windows\ref\SistemaGestionUI.dll
+C:\Users\Jose Miguel Rivera\Desktop\Coderhouse\c-sharp\SistemaGestion\SistemaGestionUI\obj\Debug\net6.0-windows\SistemaGestionUI.ABMUsuarios.resources
+C:\Users\Jose Miguel Rivera\Desktop\Coderhouse\c-sharp\SistemaGestion\SistemaGestionUI\obj\Debug\net6.0-windows\SistemaGestionUI.frmProductos.resources
+C:\Users\Jose Miguel Rivera\Desktop\Coderhouse\c-sharp\SistemaGestion\SistemaGestionUI\obj\Debug\net6.0-windows\SistemaGestionUI.frmView.resources
