@@ -65,42 +65,12 @@ namespace SistemaGestionUI
 
         }
 
-
-
-
-
-        private void btnEliminarProducto_Click(object sender, EventArgs e)
-        {
-
-            string idString = this.txtId.Text;
-
-            if (!string.IsNullOrWhiteSpace(idString))
-            {
-                int id = Convert.ToInt32(idString);
-                bool resultado = ProductoService.EliminarProductoPorId(id);
-
-                if (resultado)
-                {
-                    MessageBox.Show("Se eliminó", "Atencion ",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-
-                }
-
-            }
-            else
-            {
-                MessageBox.Show("Complete Id", "Error",
-                MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.txtId.Focus();
-            }
-
-        }
+             
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
 
-            ABMUsuario frm = new ABMUsuario(this.usuarioSeleccionado);
+            ABMUsuarios frm = new ABMUsuarios(this.usuarioSeleccionado);
             frm.ShowDialog();
             Usuario usuarioModificado = frm.UsuarioCreado;
 

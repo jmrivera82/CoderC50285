@@ -1,4 +1,5 @@
 ﻿using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using SistemaGestionData.Database;
 using SistemaGestionData.Models;
 using System;
@@ -13,19 +14,13 @@ namespace SistemaGestionData.Service
 {
     public static class ProductoService
     {
-
-
-
-
-
-        public static List<Producto> GetProductos()
+         public static List<Producto> GetProductos()
         {
-            List<Producto> productos = new List<Producto>
+            List<Producto> productos = new List<Producto>;
         
+            string connectionstring = @"Server=localhost\SQLEXPRESS; Database= coderhouse; Trusted_Connection=True"; 
 
-            string connectionstring = @"Server=localhost\SQLEXPRESS; Database= coderhouse; Trusted_Connection=True; 
-
-            string query = "Select Id, Descripciones producto";
+            string query = "Select Id, Descripciones from producto";
 
             try
             {
@@ -39,13 +34,13 @@ namespace SistemaGestionData.Service
                         {
                             if (dr.HasRows)
                             {
-                                while (dr.Read))
-					{
+                                while (dr.Read)
+					            {
                                     var producto = new Producto();
                                     producto.Id = Convert.ToInt32(dr["Id"]);
                                     producto.Descripciones = dr["Descripciones"].ToString();
 
-                                    producto.Add(cliente);
+                                    producto.Add(producto);
                                 }
                             }
                         }
@@ -55,22 +50,16 @@ namespace SistemaGestionData.Service
 
                 }
                 return productos;
+            }
 
-
-    catch (Exception ex)
+            catch (Exception ex)
             {
                 return productos;
             }
         }
 
-    }
 
-
-
-
-
-
-    public static bool EliminarProductoPorId(int id)
+        public static bool EliminarProductoPorId(int id)
         {
             using (CoderContext context = new CoderContext())
             {
@@ -91,5 +80,15 @@ namespace SistemaGestionData.Service
 
         }
 
+
+
+
     }
+
+
+
+
+   
+
 }
+
