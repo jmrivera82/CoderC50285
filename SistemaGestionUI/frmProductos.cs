@@ -55,10 +55,10 @@ namespace SistemaGestionUI
         private void frmProductos_Load(object sender, EventArgs e)
         {
 
-            List<Producto> productos = ProductoBusiness.GetProductos();
+            //List<Producto> productos = ProductoBusiness.GetProductos();
 
-            dgvProductos.AutoGenerateColumns = true;
-            dgvProductos.DataSource = productos;
+            //dgvProductos.AutoGenerateColumns = true;
+            //dgvProductos.DataSource = productos;
 
 
 

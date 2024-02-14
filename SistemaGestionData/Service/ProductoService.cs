@@ -38,15 +38,7 @@ namespace SistemaGestionData.Service
 
         }
 
-
-
-
     }
-
-
-
-
-   
 
 }
 
