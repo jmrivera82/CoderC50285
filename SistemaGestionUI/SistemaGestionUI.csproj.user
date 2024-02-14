@@ -7,7 +7,7 @@
     <Compile Update="frmProductos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="frmView.cs">
+    <Compile Update="frmUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

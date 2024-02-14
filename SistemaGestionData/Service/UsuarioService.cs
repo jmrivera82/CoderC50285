@@ -1,5 +1,7 @@
 ﻿using SistemaGestionData.Database;
 using SistemaGestionData.Models;
+
+using System.Data.SqlClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +17,7 @@ namespace SistemaGestionData.Service
         {
             using (CoderContext context = new CoderContext())
             {
-                List<Usuario> usuarios = context.Usuarios.ToList();
+                List<Usuario> usuarios = context.Usuarios.ToList(); //Con error de excepcion
 
                 return usuarios;
             }
@@ -46,7 +48,6 @@ namespace SistemaGestionData.Service
             return null;
         }
 
-
         public static bool AgregarUsuario(Usuario usuario)
         {
             using (CoderContext context = new CoderContext())
@@ -55,11 +56,7 @@ namespace SistemaGestionData.Service
                 context.Usuarios.Add(usuario);
                 context.SaveChanges();
                 return true;
-
-
-
             }
-
 
         }
 
@@ -81,8 +78,6 @@ namespace SistemaGestionData.Service
             }
 
         }
-
-
 
 
     }
