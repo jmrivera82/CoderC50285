@@ -14,49 +14,7 @@ namespace SistemaGestionData.Service
 {
     public static class ProductoService
     {
-         public static List<Producto> GetProductos()
-        {
-            List<Producto> productos = new List<Producto>;
-        
-            string connectionstring = @"Server=localhost\SQLEXPRESS; Database= coderhouse; Trusted_Connection=True"; 
-
-            string query = "Select Id, Descripciones from producto";
-
-            try
-            {
-                using (SqlConnection conexion = new SqlConnection(connectionstring))
-                {
-                    conexion.Open();
-
-                    using (SqlCommand comando = new SqlCommand(query, conexion))
-                    {
-                        using (SqlDataReader dr = comando.ExcuteReader())
-                        {
-                            if (dr.HasRows)
-                            {
-                                while (dr.Read)
-					            {
-                                    var producto = new Producto();
-                                    producto.Id = Convert.ToInt32(dr["Id"]);
-                                    producto.Descripciones = dr["Descripciones"].ToString();
-
-                                    producto.Add(producto);
-                                }
-                            }
-                        }
-                    }
-
-                    conexion.Close();
-
-                }
-                return productos;
-            }
-
-            catch (Exception ex)
-            {
-                return productos;
-            }
-        }
+    
 
 
         public static bool EliminarProductoPorId(int id)
